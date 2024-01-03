@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Employee List </h1>
+
+    <div class="contain">
+        <table id="employee">
+            <tr>
+                <td>Employee Name:</td>
+                <td><input type="text" placeholder="Enter your Name:" id="name"></td>
+            </tr>
+            <tr>
+                <td>Employee ID:</td>
+                <td><input type="text" placeholder="Enter your ID" id="empid"></td>
+            </tr>
+            <tr>
+                <td>Employee Salary:</td>
+                <td><input type="text" placeholder="Enter your Salary" id="salary"></td>
+            </tr>
+            <tr>
+                <td>Employee Joining:</td>
+                <td><input type="date" placeholder="Enter Your joining Date" id="join"></td>
+            </tr>
+            <tr>
+                <td>Employee Role:</td>
+                <td><input type="text" placeholder="Enter your Role" id="role"></td>
+            </tr>
+        </table>
+        <button onclick="dataa()" id="btn">ADD</button>
+        <table id="data">
+            <tr>
+                <th>Employee Name</th>
+                <th>Employee ID</th>
+                <th>Employee Salary</th>
+                <th>Employee Joining</th>
+                <th>Employee Role</th>
+                <th>Remove</th>
+            </tr>
+
+        </table>
+    </div>
+    <script src="index.js">
+
+    </script>
+
+</body>
+
+</html>

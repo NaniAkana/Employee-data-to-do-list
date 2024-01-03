@@ -1,0 +1,63 @@
+#employee{
+    margin-left: 400px;
+    background-color: rgb(15, 83, 83);
+    height: 50vh;
+    width: 600px;
+    border: 2px solid;
+}
+#btn{
+    margin-left: 600px;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: blueviolet;
+    font-size: larger;
+    color: white;
+}
+#employee input{
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+
+
+}
+#data{
+    font-size: larger;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+   background-color: rgb(15, 83, 83);
+   margin-top: 20px;
+}
+th {
+    text-align: center;
+    color: red;
+    padding: 10px;
+    border: 1px solid rgb(123, 160, 81);
+}
+
+td {
+    
+    text-align: center;
+    color:white;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.b1 {
+    font-size: 20px;
+   
+    background-color: red;
+    border: 1px solid black;
+
+}
+@media (max-width:1050px) {
+    #employee{
+      margin-left: 0;
+    }
+    #btn{
+        margin-left: 50px;
+    }
+    
+}
